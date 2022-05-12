@@ -1,0 +1,10 @@
+<div>
+    <h1>NOS VALEURS</h1>
+    <hr />
+    <section class="flex-container">
+        <section *ngFor="let valeur of valeurs">
+            <img src="{{ valeur.path }}" alt="{{ valeur.alt }}">
+            <h2>{{ valeur.text }}</h2>
+        </section>
+    </section>
+</div>

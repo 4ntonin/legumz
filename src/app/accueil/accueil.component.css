@@ -1,0 +1,66 @@
+
+
+
+
+
+#slogan {
+    height: 100vh;
+    width: 100%;
+    background-image: url('../../assets/img/photos/main-wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#slogan>h1 {
+    cursor: default;
+    font-style: italic;
+    font-weight: 200;
+    z-index: 5;
+    margin: 0 75px;
+    padding: 200px 50px;
+    color: var(--light-color);
+    font-size: 50px;
+}
+
+
+
+.grid-display {
+    padding: 100px;
+    min-height: 700px;
+    height: auto;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr;
+    padding-bottom: 0;
+}
+
+.grid-display p {
+    color: var(--dark-color);
+    padding: 30px;
+    background-color: var(--light-color);
+    border-radius: 10px;
+    width: 60%;
+    font-size: 25px;
+    margin-top: 15%;
+}
+
+.grid-display:first-child {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.grid-display:nth-child(2) {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.grid-display img {
+    z-index: -10;
+    position: absolute;
+    right: 50px;
+    margin-top: -50px;
+    height: 675px;
+    width: auto;
+    /* margin: 0 20%; */
+}
