@@ -80,17 +80,3 @@ h1 {
     font-size: 65px;
     color: var(--light-color);
 }
-
-
-main>section>ul>li>section{
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    
-}
-
-main>section>ul>li>section>img{
-    margin-top: 15px;
-    padding-bottom: 15px;
-    border-bottom: var(--dark-color) solid 2px;
-    width: 120px;
-}

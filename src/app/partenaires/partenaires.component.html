@@ -1,0 +1,17 @@
+<h4>
+    Ils nous font confiance
+    <br>
+    <hr>
+</h4>
+<ul class="flex-container">
+    <li *ngFor="let partenaire of partenaires">
+        <section>
+            <img src="{{ partenaire.logo }}">
+            <section>
+                <h3>{{ partenaire.name }}</h3>
+                <br>
+                <p>{{ partenaire.description }}</p>
+            </section>
+        </section>
+    </li>
+</ul>
