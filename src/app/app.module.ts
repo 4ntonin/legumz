@@ -10,6 +10,7 @@ import { ValeursComponent } from './valeurs/valeurs.component';
 import { AvisComponent } from './avis/avis.component';
 import { PartenairesComponent } from './partenaires/partenaires.component';
 import { ProduitsComponent } from './produits/produits.component';
+import { ServicesComponent } from './services/services.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ProduitsComponent } from './produits/produits.component';
     ValeursComponent,
     AvisComponent,
     PartenairesComponent,
-    ProduitsComponent
+    ProduitsComponent,
+    ServicesComponent
   ],
   imports: [
     BrowserModule,
@@ -28,6 +30,7 @@ import { ProduitsComponent } from './produits/produits.component';
       { path: '', component: AccueilComponent },
       { path: 'partenaires', component: PartenairesComponent },
       { path: 'produits', component: ProduitsComponent },
+      { path: 'services', component: ServicesComponent },
     ]),
   ],
   providers: [],

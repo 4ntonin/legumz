@@ -1,0 +1,24 @@
+<h4>
+    Nos Services
+    <br />
+    <hr />
+  </h4>
+  <h5>
+    Ce que nous vous offrons.
+    <br />
+  </h5>
+  <ul class="flex-container">
+    <li *ngFor="let service of services">
+      <section>
+        <img src="{{ service.image }}" alt="phone" />
+        <section>
+          <h3>{{ service.name }}</h3>
+          <br />
+          <p>
+            {{ service.description }}
+          </p>
+        </section>
+      </section>
+    </li>
+  </ul>
+  
