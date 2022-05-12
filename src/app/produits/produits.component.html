@@ -1,0 +1,23 @@
+<h4>
+  Nos Produits
+  <br />
+  <hr />
+</h4>
+<h5>
+  Ce que nous vous proposons.
+  <br />
+</h5>
+<ul class="flex-container">
+  <li *ngFor="let produit of produits">
+    <section>
+      <img src="{{ produit.image }}" alt="phone" />
+      <section>
+        <h3>{{ produit.name }}</h3>
+        <br />
+        <p>
+          {{ produit.description }}
+        </p>
+      </section>
+    </section>
+  </li>
+</ul>

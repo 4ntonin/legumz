@@ -9,6 +9,7 @@ import { AccueilComponent } from './accueil/accueil.component';
 import { ValeursComponent } from './valeurs/valeurs.component';
 import { AvisComponent } from './avis/avis.component';
 import { PartenairesComponent } from './partenaires/partenaires.component';
+import { ProduitsComponent } from './produits/produits.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { PartenairesComponent } from './partenaires/partenaires.component';
     AccueilComponent,
     ValeursComponent,
     AvisComponent,
-    PartenairesComponent
+    PartenairesComponent,
+    ProduitsComponent
   ],
   imports: [
     BrowserModule,
@@ -25,6 +27,7 @@ import { PartenairesComponent } from './partenaires/partenaires.component';
     RouterModule.forRoot([
       { path: '', component: AccueilComponent },
       { path: 'partenaires', component: PartenairesComponent },
+      { path: 'produits', component: ProduitsComponent },
     ]),
   ],
   providers: [],

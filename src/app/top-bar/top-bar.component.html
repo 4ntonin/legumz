@@ -4,30 +4,30 @@
     <nav>
         <ul>
             <li>
-                <a id="inpage" href="#">Accueil</a>
+                <a [routerLink]="['/']">Accueil</a>
             </li>
             <li>
-                <a [routerLink]="['/partenaires']">Nos offres</a>
+                <a [routerLink]="['produits']">Nos offres</a>
                 <ul>
                     <li>
-                        <a href="./pages/nos-produits.html">Nos produits</a>
+                        <a [routerLink]="['produits']">Nos produits</a>
                     </li>
                     <li class="last-item">
-                        <a href="./pages/nos-services.html">Nos services</a>
+                        <a [routerLink]="['services']">Nos services</a>
                     </li>
                 </ul>
             </li>
             <li>
-                <a [routerLink]="['/partenaires']">Nos partenaires</a>
+                <a [routerLink]="['partenaires']">Nos partenaires</a>
             </li>
             <li>
-                <a href="./pages/a-propos.html">Notre entreprise</a>
+                <a [routerLink]="['about']">Notre entreprise</a>
                 <ul>
                     <li>
-                        <a href="./pages/a-propos.html">À propos</a>
+                        <a [routerLink]="['about']">À propos</a>
                     </li>
                     <li class="last-item">
-                        <a href="./pages/nous-contacter.html">Nous contacter</a>
+                        <a [routerLink]="['contact']">Nous contacter</a>
                     </li>
                 </ul>
             </li>
