@@ -11,6 +11,7 @@ import { AvisComponent } from './avis/avis.component';
 import { PartenairesComponent } from './partenaires/partenaires.component';
 import { ProduitsComponent } from './produits/produits.component';
 import { ServicesComponent } from './services/services.component';
+import { BotBarComponent } from './bot-bar/bot-bar.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { ServicesComponent } from './services/services.component';
     AvisComponent,
     PartenairesComponent,
     ProduitsComponent,
-    ServicesComponent
+    ServicesComponent,
+    BotBarComponent
   ],
   imports: [
     BrowserModule,
