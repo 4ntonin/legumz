@@ -12,6 +12,9 @@ import { PartenairesComponent } from './partenaires/partenaires.component';
 import { ProduitsComponent } from './produits/produits.component';
 import { ServicesComponent } from './services/services.component';
 import { BotBarComponent } from './bot-bar/bot-bar.component';
+import { AboutComponent } from './about/about.component';
+import { EngagementsComponent } from './engagements/engagements.component';
+import { AmbitionsComponent } from './ambitions/ambitions.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +26,10 @@ import { BotBarComponent } from './bot-bar/bot-bar.component';
     PartenairesComponent,
     ProduitsComponent,
     ServicesComponent,
-    BotBarComponent
+    BotBarComponent,
+    AboutComponent,
+    EngagementsComponent,
+    AmbitionsComponent
   ],
   imports: [
     BrowserModule,
@@ -33,6 +39,7 @@ import { BotBarComponent } from './bot-bar/bot-bar.component';
       { path: 'partenaires', component: PartenairesComponent },
       { path: 'produits', component: ProduitsComponent },
       { path: 'services', component: ServicesComponent },
+      { path: 'about', component: AboutComponent },
     ]),
   ],
   providers: [],

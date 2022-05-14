@@ -1,0 +1,17 @@
+<div>
+  <h2>NOS AMBITIONS</h2>
+  <ul class="flex-container">
+    <li *ngFor="let ambition of ambitions">
+      <section class="grid-display">
+        <img src="{{ ambition.image }}" alt="leader" />
+        <section>
+          <h3>{{ ambition.name }}</h3>
+          <br />
+          <p>
+            {{ ambition.description }}
+          </p>
+        </section>
+      </section>
+    </li>
+  </ul>
+</div>
